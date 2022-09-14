@@ -58,7 +58,7 @@ $books=getBooks($xml);
      <input type="text" name="search" placeholder="search word">
      <button>OK</button>
  </form>
- <table border="1">
+ <table border="1px black solid">
      <tr>
          <th>Title</th>
          <th>Author</th>
