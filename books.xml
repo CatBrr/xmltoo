@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <catalog>
 	<book id="bk101">
-		<author>Gambardella, Matthew</author>
+		<author>Gambardella Matthew</author>
 		<title>XML Developer's Guide</title>
 		<price>44.95</price>
 		<description>
@@ -14,7 +14,7 @@
 		</description>
 	</book>
 	<book id="bk102">
-		<author>Ralls, Kim</author>
+		<author>Ralls Kim</author>
 		<title>Midnight Rain</title>
 		<price>5.95</price>
 		<description>
@@ -42,7 +42,7 @@
 		</description>
 	</book>
 	<book id="bk104">
-		<author>Corets, Eva</author>
+		<author>Corets Eva</author>
 		<title>Oberon's Legacy</title>
 		<price>5.95</price>
 		<description>
@@ -57,7 +57,7 @@
 		</description>
 	</book>
 	<book id="bk105">
-		<author>Corets, Eva</author>
+		<author>Corets  Eva</author>
 		<title>The Sundered Grail</title>
 		<price>5.95</price>
 		<description>
@@ -71,7 +71,7 @@
 		</description>
 	</book>
 	<book id="bk106">
-		<author>Randall, Cynthia</author>
+		<author>Randall Cynthia</author>
 		<title>Lover Birds</title>
 		<price>4.95</price>
 		<description>
@@ -84,7 +84,7 @@
 		</description>
 	</book>
 	<book id="bk107">
-		<author>Thurman, Paula</author>
+		<author>Thurman Paula</author>
 		<title>Splish Splash</title>
 		<price>4.95</price>
 		<description>
@@ -97,7 +97,7 @@
 		</description>
 	</book>
 	<book id="bk108">
-		<author>Knorr, Stefan</author>
+		<author>Knorr Stefan</author>
 		<title>Creepy Crawlies</title>
 		<price>4.95</price>
 		<description>
@@ -110,7 +110,7 @@
 		</description>
 	</book>
 	<book id="bk109">
-		<author>Kress, Peter</author>
+		<author>Kress Peter</author>
 		<title>Paradox Lost</title>
 		<price>6.95</price>
 		<description>
@@ -124,7 +124,7 @@
 		</description>
 	</book>
 	<book id="bk110">
-		<author>O'Brien, Tim</author>
+		<author>O'Brien Tim</author>
 		<title>Microsoft .NET: The Programming Bible</title>
 		<price>36.95</price>
 		<description>
@@ -137,7 +137,7 @@
 		</description>
 	</book>
 	<book id="bk111">
-		<author>O'Brien, Tim</author>
+		<author>O'Brien Tim</author>
 		<title>MSXML3: A Comprehensive Guide</title>
 		<price>36.95</price>
 		<description>
@@ -151,7 +151,7 @@
 		</description>
 	</book>
 	<book id="bk112">
-		<author>Galos, Mike</author>
+		<author>Galos Mike</author>
 		<title>Visual Studio 7: A Comprehensive Guide</title>
 		<price>49.95</price>
 		<description>

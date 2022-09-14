@@ -16,17 +16,6 @@ function getBook($books){
     }
     return $result;
 }
-function searchByBookTitle($searchWord){
-    global $books;
-    $result=array();
-    foreach($books as $book){
-        if(substr(strtolower($book->title), 0,
-                strlen($searchWord))==strtolower($searchWord)){
-            array_push($result, $book);
-        }
-    }
-    return $result;
-}
 function searchByBookGenre($searchWord){
     global $books;
     $result=array();
@@ -61,11 +50,9 @@ $books=getBooks($xml);
 <body>
  <h1>Library</h1>
  <form action="?" method="post">
-     <input type="radio" name="searchBy" value="booktitle" id="booktitle">
-     <label for="booktitle">book tittle</label>
      <input type="radio" name="searchBy" value="bookgenre" id="bookgenre" checked>
      <label for="bookgenre">book genre</label>
-     <input type="radio" name="searchBy" value="bookauthor" id="bookauthor" checked>
+     <input type="radio" name="searchBy" value="bookauthor" id="bookauthor">
      <label for="bookauthor">book author</label>
      <br>
      <input type="text" name="search" placeholder="search word">
@@ -83,9 +70,7 @@ $books=getBooks($xml);
          <?php
          if(!empty($_POST["search"])){
          $radiobutton=$_POST["searchBy"];
-         if($radiobutton== "booktitle"){
-             $result=searchByBookTitle($_POST["search"]);
-         } else if($radiobutton== "bookgenre"){
+         if($radiobutton== "bookgenre"){
              $result=searchByBookGenre($_POST["search"]);
          }
          else if($radiobutton== "bookauthor"){
