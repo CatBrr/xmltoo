@@ -38,7 +38,14 @@ function searchByBookAuthor($searchWord){
     }
     return $result;
 }
-
+function SumPrice(){
+    global $books;
+    $sum=0;
+    foreach($books as $book){
+        $sum=$sum+$book->price;
+    }
+    return $sum;
+}
 $books=getBooks($xml);
 ?>
 <!DOCTYPE html>
@@ -87,6 +94,14 @@ $books=getBooks($xml);
              echo "<td>".$book->description->desc."</td>";
              echo "</tr>";
             }
+             echo "<tr>";
+             echo "<th>Summary books</th>";
+             echo "<td>".(count($books)-1)."</td>";
+             echo "<td> </td>";
+             echo "<th>Summary price</th>";
+             echo "<td>".(SumPrice())."</td>";
+             echo "<td> </td>";
+             echo "</tr>";
          }
          else{
             foreach ($books as $book){
@@ -99,6 +114,15 @@ $books=getBooks($xml);
              echo "<td>".$book->description->desc."</td>";
              echo "</tr>";
             }
+             echo "<tr>";
+             echo "<th>Summary books</th>";
+             echo "<td>".(count($books)-1)."</td>";
+             echo "<td> </td>";
+             echo "<th>Summary price</th>";
+             echo "<td>".(SumPrice())."</td>";
+             echo "<td> </td>";
+             echo "</tr>";
+
          }
 
          ?>
