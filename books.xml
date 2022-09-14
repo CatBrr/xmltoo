@@ -165,4 +165,19 @@
 			</desc>
 		</description>
 	</book>
+	<book id="bk113">
+		<author>Bram Stoker</author>
+		<title>Dracula</title>
+		<price>15.53</price>
+		<description>
+		<genre>Romance</genre>
+		<publish_date>1897-05-26</publish_date>
+		<desc>
+			“There are darknesses in life and there are lights, and you are one of the lights, the light of all lights.” ― Bram Stoker, Dracula
+				Dracula is an 1897 Gothic horror novel by Irish author Bram Stoker.
+				Famous for introducing the character of the vampire Count Dracula,
+				the novel tells the story of Dracula's attempt to move from Transylvania to England
+		</desc>
+	</description>
+	</book>
 </catalog>
