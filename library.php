@@ -56,6 +56,7 @@ $books=getBooks($xml);
 </head>
 <body>
  <h1>Library</h1>
+ <h2>search</h2>
  <form action="?" method="post">
      <input type="radio" name="searchBy" value="bookgenre" id="bookgenre" checked>
      <label for="bookgenre">book genre</label>
